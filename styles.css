@@ -1,0 +1,134 @@
+#pii-risk-panel {
+
+    position: fixed;
+
+    top: 20px;
+    right: 20px;
+
+    width: 360px;
+
+    background: #111827;
+
+    color: white;
+
+    border-radius: 14px;
+
+    padding: 16px;
+
+    z-index: 999999;
+
+    font-family: Arial, sans-serif;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.4);
+
+    display: none;
+}
+
+.pii-title {
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    margin-bottom: 14px;
+}
+
+.pii-row {
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    margin-bottom: 10px;
+}
+
+.severity-LOW {
+
+    background:
+        rgba(255,255,0,0.12);
+
+    border-left:
+        4px solid yellow;
+}
+
+.severity-MEDIUM {
+
+    background:
+        rgba(255,165,0,0.12);
+
+    border-left:
+        4px solid orange;
+}
+
+.severity-HIGH {
+
+    background:
+        rgba(255,0,0,0.12);
+
+    border-left:
+        4px solid red;
+}
+
+.severity-CRITICAL {
+
+    background:
+        rgba(139,0,0,0.22);
+
+    border-left:
+        4px solid darkred;
+}
+
+.pii-type {
+
+    font-weight: bold;
+
+    margin-bottom: 6px;
+}
+
+.pii-value {
+
+    word-break: break-word;
+
+    font-size: 13px;
+
+    opacity: 0.9;
+
+    margin-bottom: 10px;
+}
+
+.pii-actions {
+
+    display: flex;
+
+    gap: 8px;
+}
+
+.pii-btn {
+
+    border: none;
+
+    padding: 8px 12px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 12px;
+
+    font-weight: bold;
+}
+
+.highlight-btn {
+
+    background: #2563eb;
+
+    color: white;
+}
+
+.remove-btn {
+
+    background: #dc2626;
+
+    color: white;
+}

@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+
+  "name": "PII GUARD",
+
+  "version": "1.0.0",
+
+  "description": "Real-time AI prompt and sensitive data leak prevention extension.",
+
+  "host_permissions": [
+    "<all_urls>"
+  ],
+
+  "permissions": [
+    "storage"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
