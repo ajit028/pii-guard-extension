@@ -70,14 +70,6 @@ Select the project folder.
 
 ---
 
-## Demo
-
-### Real-Time Detection Dashboard
-
-(Add screenshot here)
-
----
-
 ## Future Improvements
 
 - Domain-specific policies
